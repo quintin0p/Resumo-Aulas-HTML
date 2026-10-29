@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro Luís Quintino">
+    <meta name="description" content="Resumo das aulas de HTML e CSS">
+    <meta name="keywords" content="html5, css">
+
+    <title>Resumo HTML e CSS</title>
+
+    <style>
+        div {
+            padding: 2%;
+            margin: 50px 2%;
+            border: 1px solid black;
+            width: 17%;
+            height: 100px;
+            font-family: sans-serif;
+            font-size: 18px;
+            /* com o overflow determinamos o comportamento do texto excedente, o texto que fic afora de uma div por exemplo */
+            display: inline-block;
+            /* deixar os blocos em uma linha */
+        }
+
+        .div1 {
+            overflow: hidden;
+            /* escondido */
+        }
+        .div2 {
+            overflow: scroll;
+            /* barra de rolagem lado e baixo */
+        }
+        .div3 {
+            overflow: auto;
+            /* identifica a necessidade do scroll */
+        }
+        .div4 {
+            overflow: visible;
+            /* deixa no status padrão */
+        }
+
+    </style>
+</head>
+<!-- ------------------------------------------------------------------- -->
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href=".pages/fontes.html">Fontes</a>
+                </li>
+                <li>
+                    <a href=".pages/display.html">Display</a>
+                </li>
+                <li>
+                    <a href=".pages/boxsizing.html">Boxsizing</a>
+                </li>
+                <li>
+                    <a href=".pages/position.html">Position</a>
+                </li>
+                <li>
+                    <a href=".pages/listas.html">Listas</a>
+                </li>
+                <li>
+                    <a href=".pages/overflow.html">Overflow</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ------------------------------------------------------------------- -->
+    <main>
+        <div class="div1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, natus provident dolorem officia nam
+                nesciunt architecto in optio hic iusto labore repellendus voluptate mollitia veritatis praesentium illo
+                ut quas sed expedita, maxime vel. Numquam repudiandae natus odit. Nam nesciunt animi consequatur eveniet
+                hic, vel repudiandae eligendi iusto nulla repellat. Sapiente numquam excepturi magnam tempora, molestias
+                ea, eum sequi perspiciatis praesentium eaque eos error nulla quisquam. Explicabo, sequi quas nihil
+                repellat in placeat minima quaerat minus ducimus doloremque sapiente saepe autem tempore veritatis ipsum
+                debitis cumque optio perferendis. Laborum sit inventore voluptates libero minus quidem nemo culpa,
+                voluptas minima est obcaecati!</p>
+        </div>
+
+        <div class="div2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, natus provident dolorem officia nam
+                nesciunt architecto in optio hic iusto labore repellendus voluptate mollitia veritatis praesentium illo
+                ut quas sed expedita, maxime vel. Numquam repudiandae natus odit. Nam nesciunt animi consequatur eveniet
+                hic, vel repudiandae eligendi iusto nulla repellat. Sapiente numquam excepturi magnam tempora, molestias
+                ea, eum sequi perspiciatis praesentium eaque eos error nulla quisquam. Explicabo, sequi quas nihil
+                repellat in placeat minima quaerat minus ducimus doloremque sapiente saepe autem tempore veritatis ipsum
+                debitis cumque optio perferendis. Laborum sit inventore voluptates libero minus quidem nemo culpa,
+                voluptas minima est obcaecati!</p>
+        </div>
+
+        <div class="div3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, natus provident dolorem officia nam
+                nesciunt architecto in optio hic iusto labore repellendus voluptate mollitia veritatis praesentium illo
+                ut quas sed expedita, maxime vel. Numquam repudiandae natus odit. Nam nesciunt animi consequatur eveniet
+                hic, vel repudiandae eligendi iusto nulla repellat. Sapiente numquam excepturi magnam tempora, molestias
+                ea, eum sequi perspiciatis praesentium eaque eos error nulla quisquam. Explicabo, sequi quas nihil
+                repellat in placeat minima quaerat minus ducimus doloremque sapiente saepe autem tempore veritatis ipsum
+                debitis cumque optio perferendis. Laborum sit inventore voluptates libero minus quidem nemo culpa,
+                voluptas minima est obcaecati!</p>
+        </div>
+
+        <div class="div4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, natus provident dolorem officia nam
+                nesciunt architecto in optio hic iusto labore repellendus voluptate mollitia veritatis praesentium illo
+                ut quas sed expedita, maxime vel. Numquam repudiandae natus odit. Nam nesciunt animi consequatur eveniet
+                hic, vel repudiandae eligendi iusto nulla repellat. Sapiente numquam excepturi magnam tempora, molestias
+                ea, eum sequi perspiciatis praesentium eaque eos error nulla quisquam. Explicabo, sequi quas nihil
+                repellat in placeat minima quaerat minus ducimus doloremque sapiente saepe autem tempore veritatis ipsum
+                debitis cumque optio perferendis. Laborum sit inventore voluptates libero minus quidem nemo culpa,
+                voluptas minima est obcaecati!</p>
+        </div>
+
+    </main>
+    <!-- ------------------------------------------------------------------- -->
+    <footer>
+
+    </footer>
+
+</body>
+<!-- ------------------------------------------------------------------- -->
+
+</html>
